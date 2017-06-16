@@ -12,7 +12,7 @@ made by `Kaspars Sprogis <darklow@gmail.com>`_.
 - Choice which button you want
 
 Library of decent and good looking CSS/JavaScript social sharing icons,
-buttons and popups. Using OpenGraph and Twitter meta tags.
+buttons and popups. Using OpenGraph and Twitter meta tags for generating social popup content.
 
 Current social buttons supported:
 
