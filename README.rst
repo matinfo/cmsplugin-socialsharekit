@@ -61,7 +61,7 @@ Social Share Kit is licensed under Creative Commons Attribution-NonCommercial
 3.0 license. As long as you do not use the Social Share Kit in a business or
 money-making venture, it is free for your own personal use.
 
-For this I buying for you the **Unlimited**, result you have right to use this
+I buying for you the **Unlimited** licence, result you have right to use this
 CMS Plugin in any unlimited commercial projects.
 
 **EOM** licence:
