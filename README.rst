@@ -32,7 +32,7 @@ Global options:
 - **style**: Square, Round, Rounded
 - **count**: display by button number of sharing
 - **greyscale**: display button in greyscale
-- **width** for group of button, useful for column display. Need used in conjunction with button *label*. Ex: 120px or 100%.
+- **width** for group of button, useful for column display. Need used in conjunction with button *label*.
 - **forceinit**: In case if you want to initialize right away without waiting for DOM to load.
 - **position**: Left side, Right side, Bottom
 - **sticky**: position option
