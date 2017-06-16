@@ -9,7 +9,7 @@ made by `Kaspars Sprogis <darklow@gmail.com>`_.
 - Ready to add it to any PlaceholderField. Recommended in **static** placeholder.
 - Possibility to add multi time on a page
 - Buttons ordering easy by drag & drop
-- Choice witch button you want
+- Choice which button you want
 
 Library of decent and good looking CSS/JavaScript social sharing icons,
 buttons and popups. Using OpenGraph and Twitter meta tags.
