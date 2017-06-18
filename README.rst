@@ -52,7 +52,7 @@ Some example of social buttons:
 
 .. image:: preview.png
 
-For a full live demo and more info: http://socialsharekit.com/#examples
+For demo and more info: http://socialsharekit.com/#examples
 
 Based on version `1.0.14 <https://github.com/darklow/social-share-kit/releases/tag/v1.0.14>`_
 
