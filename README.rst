@@ -30,18 +30,18 @@ Global options:
 
 - **size**:	Large, Regular, Small, Extra Small
 - **style**: Square, Round, Rounded
-- **count**: display by button number of sharing
-- **greyscale**: display button in greyscale
-- **width** for group of button, useful for column display. Need used in conjunction with button *label*.
+- **count**: Display by button number of sharing
+- **greyscale**: Display button in greyscale
+- **width** For group of button, useful for column display. Need used in conjunction with button *label*.
 - **forceinit**: In case if you want to initialize right away without waiting for DOM to load.
 - **position**: Left side, Right side, Bottom
-- **sticky**: position option
-- **center**: position option
+- **sticky**: Position option
+- **center**: Position option
 
 By button options:
 
-- **label**: default *Share* or custom set by button (no multi-langues)
-- **icon only**: be defined at button level (if global icon only not set)
+- **label**: Set custom text (no multi-langues)
+- **icon only**: Change look of the button to display only icon (no background)
 
 Django CMS Plugin configuration screen:
 
@@ -67,4 +67,3 @@ CMS Plugin in any unlimited commercial projects.
 **EOM** licence:
 Integrate Social Share Kit in your commercial project (like theme) and sell
 that new project. More about source project license: http://socialsharekit.com/#license
-
