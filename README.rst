@@ -8,8 +8,9 @@ made by `Kaspars Sprogis <darklow@gmail.com>`_.
 
 - Ready to add it to any PlaceholderField. Recommended in **static** placeholder.
 - Possibility to add multi time on a page
-- Buttons ordering easy by drag & drop
 - Choice which button you want
+- Buttons ordering by drag & drop
+- Easy customise position, and look & feel
 
 Library of decent and good looking CSS/JavaScript social sharing icons,
 buttons and popups. Using OpenGraph and Twitter meta tags for generating social popup content.
