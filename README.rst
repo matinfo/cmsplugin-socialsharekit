@@ -12,8 +12,7 @@ made by `Kaspars Sprogis <darklow@gmail.com>`_.
 - Buttons ordering by drag & drop
 - Easy customise position, and look & feel
 
-Library of decent and good looking CSS/JavaScript social sharing icons,
-buttons and popups. Using OpenGraph and Twitter meta tags for generating social popup content.
+Social Share Kit is a library of decent and good looking CSS/JavaScript social sharing tools like social network icons, share buttons, share count, floating/sticky button bar and popups. Using OpenGraph and Twitter meta tags for generating social popup content.
 
 Current social buttons supported:
 
