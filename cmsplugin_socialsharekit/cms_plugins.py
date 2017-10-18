@@ -47,7 +47,7 @@ class SocialShareKitPlugin(CMSPluginBase):
     )
     class Media:
         css = {
-            'all': ('cmsplugin_socialshares/css/admin/sortable.css',)
+            'all': ('cmsplugin_socialsharekit/css/admin/sortable.css',)
         }
 
 plugin_pool.register_plugin(SocialShareKitPlugin)
