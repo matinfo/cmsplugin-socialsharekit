@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 from cmsplugin_socialsharekit import __version__
 
 REQUIREMENTS = [
-    'Django>=1.8,<1.10',
+    'Django>=1.8,<=1.11',
     'django-admin-sortable2>=0.6.10',
     'django-cms>=3.3',
 ]
