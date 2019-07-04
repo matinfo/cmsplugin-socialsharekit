@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-from cmsplugin_socialsharekit import __version__
 
 REQUIREMENTS = [
     'Django>=1.11',
