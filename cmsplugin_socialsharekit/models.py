@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
@@ -32,7 +32,8 @@ class SocialButton(models.Model):
         'cmsplugin_socialsharekit.SocialShareKitPlugin',
         related_name="buttons",
         blank=False,
-        null=False
+        null=False,
+        on_delete=models.CASCADE,
     )
     order = models.PositiveIntegerField(
         default=0,
