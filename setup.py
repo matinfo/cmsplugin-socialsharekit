@@ -28,7 +28,7 @@ CLASSIFIERS = [
 
 setup(
     name='cmsplugin-socialsharekit',
-    version="0.2.0",
+    version="0.2.1",
     description='Allows embeding Social Share Kit into the site',
     author='Mathieu Meylan',
     author_email='m.meylan@gmail.com',
