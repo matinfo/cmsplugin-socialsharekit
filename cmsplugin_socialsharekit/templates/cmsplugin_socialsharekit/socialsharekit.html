@@ -23,7 +23,8 @@
 {% endspaceless %}
 
 {# CSS #}
-{% addtoblock "css" %}<link rel="preload" href="{% static 'cmsplugin_socialsharekit/fonts/social-share-kit.woff' %}" as="font" type="font/woff" crossorigin="anonymous">{% endaddtoblock %}
+{#This does not work with django compressor and compressor.contrib.sekizai.compress#}
+{#{% addtoblock "css" %}<link rel="preload" href="{% static 'cmsplugin_socialsharekit/fonts/social-share-kit.woff' %}" as="font" type="font/woff" crossorigin="anonymous">{% endaddtoblock %}#}
 {% addtoblock "css" %}<link rel="stylesheet" href="{% static 'cmsplugin_socialsharekit/css/social-share-kit.min.css' %}">{% endaddtoblock %}
 
 {# JS #}
