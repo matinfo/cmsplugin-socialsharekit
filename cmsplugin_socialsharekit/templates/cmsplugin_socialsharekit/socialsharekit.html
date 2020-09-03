@@ -17,7 +17,7 @@
                   ssk-{{ socialbutton.button }}
                   {% if socialbutton.icononly and not instance.greyscale %} ssk-icon{% endif %}
                   {% if socialbutton.text %} ssk-text{% endif %}">
-            {% if socialbutton.text %}{{ socialbutton.text|safe }}{% else %}<div class="hidden">Share to {{ socialbutton.button }}</div>{% endif %}</a>
+            {% if socialbutton.text %}{{ socialbutton.text|safe }}{% endif %}</a>
     {% endfor %}
 </div>
 {% endspaceless %}
