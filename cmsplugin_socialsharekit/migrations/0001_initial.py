@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
+
 
 from django.db import migrations, models
 
@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='SocialShareKitPlugin',
             fields=[
-                ('cmsplugin_ptr', models.OneToOneField(primary_key=True, serialize=False, to='cms.CMSPlugin', parent_link=True, auto_created=True, related_name='cmsplugin_socialsharekit_socialsharekitplugin')),
+                ('cmsplugin_ptr', models.OneToOneField(on_delete=models.deletion.CASCADE, primary_key=True, serialize=False, to='cms.CMSPlugin', parent_link=True, auto_created=True, related_name='cmsplugin_socialsharekit_socialsharekitplugin')),
                 ('size', models.CharField(verbose_name='size', max_length=2, default='sm', choices=[('xs', 'Extra Small'), ('s', 'Small'), ('sm', 'Regular'), ('lg', 'Large')])),
                 ('style', models.CharField(verbose_name='style', max_length=10, default='square', choices=[('square', 'Square'), ('round', 'Round'), ('rounded', 'Rounded')])),
                 ('count', models.BooleanField(verbose_name='count', default=False)),
@@ -46,6 +46,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='socialbutton',
             name='plugin',
-            field=models.ForeignKey(to='cmsplugin_socialsharekit.SocialShareKitPlugin', related_name='buttons'),
+            field=models.ForeignKey(on_delete=models.deletion.CASCADE, to='cmsplugin_socialsharekit.SocialShareKitPlugin', related_name='buttons'),
         ),
     ]

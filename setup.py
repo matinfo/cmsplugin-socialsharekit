@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
+
 
 from setuptools import setup, find_packages
-from cmsplugin_socialsharekit import __version__
 
 REQUIREMENTS = [
-    'Django>=1.8,<1.10',
+    'Django>=1.11',
     'django-admin-sortable2>=0.6.10',
     'django-cms>=3.3',
 ]
@@ -18,16 +17,18 @@ CLASSIFIERS = [
     'License :: OSI Approved :: BSD License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
-    'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
     'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     'Topic :: Software Development',
 ]
 
 setup(
     name='cmsplugin-socialsharekit',
-    version=__version__,
+    version="0.2.1",
     description='Allows embeding Social Share Kit into the site',
     author='Mathieu Meylan',
     author_email='m.meylan@gmail.com',

@@ -10,16 +10,24 @@
      {% if instance.align_width %} style="width:{{ instance.align_width }}"{% endif %}
      id="ssk-{{ instance.pk }}">
     {% for socialbutton in instance.buttons.all %}
-        <a href="" class="ssk
-                          ssk-{{ socialbutton.button }}
-                          {% if socialbutton.icononly and not instance.greyscale %} ssk-icon{% endif %}
-                          {% if socialbutton.text %} ssk-text{% endif %}">
+        <a href=""
+           role="button"
+           aria-label="Share to {{ socialbutton.button }}"
+           class="ssk
+                  ssk-{{ socialbutton.button }}
+                  {% if socialbutton.icononly and not instance.greyscale %} ssk-icon{% endif %}
+                  {% if socialbutton.text %} ssk-text{% endif %}">
             {% if socialbutton.text %}{{ socialbutton.text|safe }}{% endif %}</a>
     {% endfor %}
 </div>
 {% endspaceless %}
 
-{% addtoblock "css" %}<link rel="stylesheet" href="{% static 'cmsplugin_socialsharekit/css/social-share-kit.css' %}">{% endaddtoblock %}
+{# CSS #}
+{#This does not work with django compressor and compressor.contrib.sekizai.compress#}
+{#{% addtoblock "css" %}<link rel="preload" href="{% static 'cmsplugin_socialsharekit/fonts/social-share-kit.woff' %}" as="font" type="font/woff" crossorigin="anonymous">{% endaddtoblock %}#}
+{% addtoblock "css" %}<link rel="stylesheet" href="{% static 'cmsplugin_socialsharekit/css/social-share-kit.min.css' %}">{% endaddtoblock %}
+
+{# JS #}
 {% addtoblock "js" %}<script src="{% static 'cmsplugin_socialsharekit/js/social-share-kit.min.js' %}"></script>{% endaddtoblock %}
 {% addtoblock "js" %}
 <script>
